@@ -1,5 +1,6 @@
 body {
-    font-family: 'Verdana'
+    font-family: 'Verdana', sans-serif;
+    color: #fff;
 }
 
 .navbar {
@@ -11,5 +12,5 @@ body {
 
 .elements_navbar {
     font-size: 30px;
-    color: rgb(0, 0, 0, 0.65);
+    color: rgb(255, 255, 255);
 }

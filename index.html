@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body style="background-image: url('./background.jpg');">
+<body style="background-image: url('./background.png');">
     <nav>
         <div class="container">
             <div class="row">
@@ -26,8 +26,6 @@
                         <br>
                         <a class="elements_navbar" href="#a-propos"><i class="fa-regular fa-address-card"></i>
                             A propos&ensp;</a>
-                        <a class="elements_navbar" href="#contact"><i class="fa-solid fa-envelope"></i>
-                            Contact&ensp;</a>
                     </div>
                 </div>
             </div>
@@ -107,11 +105,6 @@
                     <h2>Réseaux Sociaux</h2>
 
                     <div class="row">
-                        <div class="col-md-4">
-                            <a target="_blank" href="https://twitter.com/yazouv"
-                                class="btn btn-outline-primary btn-lg btn-block"><i class="fab fa-twitter"></i>
-                                X (Twitter)</a>
-                        </div>
 
                         <div class="col-md-4">
                             <a target="_blank" href="https://twitch.tv/yazouv"
@@ -130,11 +123,17 @@
                                 class="btn btn-outline-dark btn-lg btn-block"><i class="fa-brands fa-instagram"></i>
                                 Instagram</a>
                         </div>
+                    </div>
+                    <div class="row" style="text-align: center;">
 
                         <div class="col-md-4">
                             <a target="_blank" href="https://discordapp.com/users/391597830932004864"
                                 class="btn btn-outline-dark btn-lg btn-block"><i class="fa-brands fa-discord"></i>
                                 Discord</a>
+                        </div>
+
+                        <div class="col-md-4">
+
                         </div>
 
                         <div class="col-md-4">
@@ -144,65 +143,24 @@
                         </div>
                     </div>
                 </section>
-                <hr>
                 <section id="a-propos">
                     <h2>A Propos</h2>
 
                     <div class="row">
-                        <div class="col-md-6">
-                            <img src="votre-photo.jpg" alt="Votre Photo" class="img-fluid">
-                        </div>
-
                         <div class="col-md-6">
                             <p>
                                 Bienvenue sur mon portfolio ! Sur ce site, vous trouverez des informations sur mes
                                 projets, mes réseaux sociaux, et bien plus encore !
                             </p>
                             <p>
-                                Je m'appelle Loïs ENON, j'ai 16 ans et je suis passionné par l'informatique. J'ai déjà
+                                Je m'appelle Loïs ENON, j'ai 17 ans et je suis passionné par l'informatique. J'ai déjà
                                 eu
                                 l'occasion de réaliser plusieurs projets, notamment en Python et en JavaScript. Je suis
-                                actuellement en .
+                                actuellement en Terminale au lycée turgot.
                                 Dans le futur, j'aimerais travailler dans le domaine de l'informatique.
                                 Lorsque je ne suis pas en train de coder, je joue à des jeux vidéo, je regarde des
                                 séries
                                 ou des films, ou je passe du temps avec mes amis.
-                                Y a-t-il quelque chose que je peux faire pour vous ? N'hésitez pas à me contacter !
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <hr>
-                <section id="contact">
-                    <h2>Contact</h2>
-
-                    <div class="row">
-                        <div class="col-md-6">
-                            <form>
-                                <div class="mb-3">
-                                    <label for="nom" class="form-label">Nom</label>
-                                    <input type="text" class="form-control" id="nom" placeholder="Votre Nom">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Adresse Email</label>
-                                    <input type="email" class="form-control" id="email" placeholder="votre@email.com">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="message" class="form-label">Message</label>
-                                    <textarea class="form-control" id="message" rows="4"
-                                        placeholder="Votre message"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Envoyer</button>
-                            </form>
-                        </div>
-
-                        <div class="col-md-6">
-                            <p>
-                                N'hésitez pas à me contacter pour toute question ou collaboration. Je vous répondrai dès
-                                que possible.
-                            </p>
-                            <p>
-                                Adresse Email: <a href="mailto:loisenonlycee@gmail.com">loisenonlycee@gmail.com</a>
                             </p>
                         </div>
                     </div>
@@ -212,8 +170,12 @@
     </div>
 
     <footer>
-        <div class="container">
-            <p>© 2023 - Loïs ENON</p>
+        <div class="container" style="text-align: center; margin-top: 20px; margin-bottom: 20px; color: white;">
+            <p>
+                <script>
+                    document.write("© " + new Date().getFullYear() + " - Loïs ENON");
+                </script>
+            </p>
         </div>
     </footer>
 </body>
